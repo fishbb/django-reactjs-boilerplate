@@ -31,4 +31,4 @@ And finally we should create a `.gitignore` file and add `*.pyc` files and
 At this point, you can run `./manage.py runserver` and you should see the
 Django welcome page in your browser at `http://localhost:8000`.
 
-[Step 2: Add non-React views](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step2_add_non_react_views)
+[Step 2: Add non-React views](https://github.com/fishbb/django-reactjs-boilerplate/tree/step2_add_non_react_views)
