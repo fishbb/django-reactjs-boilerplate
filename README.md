@@ -18,7 +18,7 @@ new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
   hot: true,
   inline: true,
-  headers: { 'Access-Control-Allow-Origin': '*' },  
+  headers: { 'Access-Control-Allow-Origin': '*' },  //add this header so you won't get errors when hot reloading
   historyApiFallback: true,
 }).listen(3000, config.ip, function (err, result) {
   if (err) {
@@ -45,7 +45,7 @@ config.entry = {
 config.output.publicPath = 'http://' + ip + ':3000' + '/assets/bundles/'
 
 config.plugins = config.plugins.concat([
-//  new webpack.HotModuleReplacementPlugin(),
+//  new webpack.HotModuleReplacementPlugin(), //this is not used with --hot
   new webpack.NoErrorsPlugin(),
   new BundleTracker({filename: './webpack-stats-local.json'}),
 ])
