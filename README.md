@@ -1,6 +1,6 @@
 # Step 7: Add Redux
 
-[Back to step 6](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step6_going_to_production)
+[Back to step 6](https://github.com/fishbb/django-reactjs-boilerplate/tree/step6_going_to_production)
 
 This step is just a bonus, really. You might want to use some other flux
 implementation to manage your components' state, but Redux is really nice to
@@ -168,4 +168,4 @@ action has fired. This is unbelievably helpful for debugging!
 Try to run `node server.js` and `./manage.py runserver` and click at the
 "INCREASE" link.
 
-[Step 8: Inline styles](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step8_inline_styles)
+[Step 8: Inline styles](https://github.com/fishbb/django-reactjs-boilerplate/tree/step8_inline_styles)
