@@ -1,6 +1,6 @@
 # Step 4: Use the bundle
 
-[Back to step 3](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step3_add_django_webpack_loader)
+[Back to step 3](https://github.com/fishbb/django-reactjs-boilerplate/tree/step3_add_django_webpack_loader)
 
 In the last step we have create our first bundle, but we haven't seen the result
 in the browser. Let's update our template to use our fancy new ReactJS app now.
@@ -49,4 +49,4 @@ in the browser. It should say "Something New!" now.
 
 Amazing, huh?
 
-[Step 5: Hot reloading](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step5_hot_reloading)
+[Step 5: Hot reloading](https://github.com/fishbb/django-reactjs-boilerplate/tree/step5_hot_reloading)
