@@ -50,4 +50,4 @@ it out, just checkout that branch and run it locally and play with it for a
 while, then move on to the next branch.
 
 Start with
-[Step 1: Create your Django project](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step1_create_project)
+[Step 1: Create your Django project](https://github.com/fishbb/django-reactjs-boilerplate/tree/step1_create_project)
