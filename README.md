@@ -50,4 +50,4 @@ it out, just checkout that branch and run it locally and play with it for a
 while, then move on to the next branch.
 
 Start with
-[Step 1: Create your Django project](/blob/step2_add_non_react_views/README.md)
+[Step 1: Create your Django project](https://github.com/fishbb/django-reactjs-boilerplate/blob/step2_add_non_react_views/README.md)
