@@ -59,6 +59,8 @@ Python's `requirements.txt` file:
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "es6-promise": "^3.1.2",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.5.1",
@@ -79,7 +81,7 @@ far beyond the scope of this quick tutorial. A lot of this stuff has to do with
 [Babel](http://babeljs.io), which is a tool that "transpiles" cutting edge
 JavaScript syntax into something that browsers support.
 
-When you have created the file, you can install the packages via `npm install`.
+When you have created the file, run `npm init`, then you can install the packages via `npm install`.
 This will create a `node_modules` folder, so we should also add that folder to
 `.gitignore`. If you don't have `npm` installed, now is a good time to google
 for it and find out how to install it on your OS.
