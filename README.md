@@ -1,6 +1,6 @@
 # Step 5: Hot Reloading
 
-[Back to step 4](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step4_use_the_bundle)
+[Back to step 4](https://github.com/fishbb/django-reactjs-boilerplate/tree/step4_use_the_bundle)
 
 Step 4 was nice and awesome, but not mind-blowing. Let's do mind-blowing now.
 We don't really want to run that `webpack` command every time we change our
@@ -18,6 +18,7 @@ new WebpackDevServer(webpack(config), {
   publicPath: config.output.publicPath,
   hot: true,
   inline: true,
+  headers: { 'Access-Control-Allow-Origin': '*' },  
   historyApiFallback: true,
 }).listen(3000, config.ip, function (err, result) {
   if (err) {
@@ -44,7 +45,7 @@ config.entry = {
 config.output.publicPath = 'http://' + ip + ':3000' + '/assets/bundles/'
 
 config.plugins = config.plugins.concat([
-  new webpack.HotModuleReplacementPlugin(),
+//  new webpack.HotModuleReplacementPlugin(),
   new webpack.NoErrorsPlugin(),
   new BundleTracker({filename: './webpack-stats-local.json'}),
 ])
@@ -66,4 +67,4 @@ you can see `webpack://` in the sidebar. It has a folder called `.` where you
 will find the original ReactJS sources. You can even put breakpoints here and
 debug your app like a pro. No more `console.log()` in your JavaScript code.
 
-[Step 6: Going to production](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step6_going_to_production)
+[Step 6: Going to production](https://github.com/fishbb/django-reactjs-boilerplate/tree/step6_going_to_production)
