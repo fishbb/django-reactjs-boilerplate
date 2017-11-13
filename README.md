@@ -82,4 +82,4 @@ I'm importing Twitter Bootstrap here because I also want to show that ReactJS
 will not stand in your way even if you are already using a complex CSS
 framework. More on this in a later step.
 
-[Step 3: Add django-webpack-loader](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step3_add_django_webpack_loader)
+[Step 3: Add django-webpack-loader](https://github.com/fishbb/django-reactjs-boilerplate/tree/step3_add_django_webpack_loader)
