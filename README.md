@@ -1,6 +1,6 @@
 # Step 3: Add django-webpack-loader
 
-[Back to step 2](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step2_add_non_react_views)
+[Back to step 2](https://github.com/fishbb/django-reactjs-boilerplate/tree/step2_add_non_react_views)
 
 Unfortunately, in this step a lot of stuff will happen all at once. This is
 the step where most people give up, because Webpack is one monster of a tool
@@ -262,4 +262,4 @@ equivalent of smaller partial templates that you import in Django using the
 At this point you can run `node_modules/.bin/webpack --config webpack.local.config.js`
 and it should generate some files in `djreact/static/bundles/`.
 
-[Step 4: Use the bundle](/tree/step4_use_the_bundle)
+[Step 4: Use the bundle](https://github.com/fishbb/django-reactjs-boilerplate/tree/step4_use_the_bundle)
