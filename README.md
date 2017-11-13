@@ -1,6 +1,6 @@
 # Step 2: Add non-reactJS views
 
-[Back to Step 1](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step1_create_project)
+[Back to Step 1](https://github.com/fishbb/django-reactjs-boilerplate/tree/step1_create_project)
 
 We want to show that ReactJS can easily be used with an existing project, so
 we will add a few "legacy-views" to simulate that this is an old existing
