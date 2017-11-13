@@ -30,6 +30,7 @@ git clone https://github.com/mbrochh/django-reactjs-boilerplate.git
 cd django-reactjs-boilerplate/django
 mkvirtualenv djreact
 pip install -r requirements.txt
+npm init
 npm install
 ./manage.py migrate
 ./manage.py runserver
