@@ -84,4 +84,4 @@ Now it is save to change, add and delete styles right there in the component,
 because it will only affect that component and developers can see at one glance
 what styles are there and where they are used.
 
-[Step 9: Fetching data](https://github.com/mbrochh/django-reactjs-boilerplate/tree/step9_fetching_data)
+[Step 9: Fetching data](https://github.com/fishbb/django-reactjs-boilerplate/tree/step9_fetching_data)
